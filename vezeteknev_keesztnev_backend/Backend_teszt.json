@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "vezeteknev_keresztnev_backend",
+    "collectionId": "9a44ba83-bec5-4a13-b729-2dff1c29c312",
+    "dateExported": "2024-05-20T11:38:38.470Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "0380ba72-4d36-4bff-8db8-05518a6c42be",
+            "name": "nside",
+            "containerId": "",
+            "created": "2024-05-20T11:28:08.839Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "408cd3e8-e4a8-4e16-84bf-bd741d9c02d4",
+            "colId": "9a44ba83-bec5-4a13-b729-2dff1c29c312",
+            "containerId": "0380ba72-4d36-4bff-8db8-05518a6c42be",
+            "name": "getAll",
+            "url": "http://localhost:5000/api/ingatlan",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-20T11:28:08.839Z",
+            "modified": "2024-05-20T11:28:08.839Z",
+            "headers": []
+        },
+        {
+            "_id": "d1c0654b-32aa-442f-afc4-d481a9296c91",
+            "colId": "9a44ba83-bec5-4a13-b729-2dff1c29c312",
+            "containerId": "0380ba72-4d36-4bff-8db8-05518a6c42be",
+            "name": "create",
+            "url": "http://localhost:5000/api/ingatlan",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-20T11:28:08.843Z",
+            "modified": "2024-05-20T11:28:08.843Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"_id\": 99,\r\n    \"minMaxExample\": 0,\r\n    \"prepTime\": 12,\r\n    \"isGlutenFree\": true,\r\n    \"description\": \"leírás szövege ide kerül majdanán\",\r\n    \"name\": \"recept neve 99\",\r\n    \"kategoria\": 1,\r\n    \"dateExample\": \"2020-07-19T22:00:00.000Z\"\r\n}"
+            }
+        },
+        {
+            "_id": "0fa5c1bb-f616-41cd-9914-65c4209552c6",
+            "colId": "9a44ba83-bec5-4a13-b729-2dff1c29c312",
+            "containerId": "0380ba72-4d36-4bff-8db8-05518a6c42be",
+            "name": "delete",
+            "url": "http://localhost:5000/api/ingatlan/123",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-05-20T11:28:08.846Z",
+            "modified": "2024-05-20T11:28:55.028Z",
+            "headers": []
+        }
+    ],
+    "ref": "5PaU9hmRWF_aejy0gTd4t_av_jak9V3oSRvjgZSAUrpRgFXYg6_PtVttNPuwR27nCHH7qDrDkXTOLVEjclycYw"
+}
